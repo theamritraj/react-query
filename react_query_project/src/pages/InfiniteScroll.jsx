@@ -1,5 +1,5 @@
 import { useInfiniteQuery } from "@tanstack/react-query";
-import { fetchUsers } from "../API/api";
+import { fetchUsers } from "../Api/api";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 

@@ -1,11 +1,10 @@
-/* eslint-disable no-undef */
 import {
   keepPreviousData,
   useMutation,
   useQuery,
   useQueryClient,
 } from "@tanstack/react-query";
-import { deletePost, fetchPosts, updatePost } from "../API/api";
+import { deletePost, fetchPosts, updatePost } from "../Api/api";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
